@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lunas de Octubre: café, momentos especiales y una esencia cálida inspirada en la luna y el otoño.">
+  <title>Lunas de Octubre | Cafetería</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a class="marca" href="#inicio" aria-label="Lunas de Octubre, inicio">
+      <img src="imagenes/3.jpeg" alt="Logo de Lunas de Octubre: luna creciente, taza de café, estrellas y hojas otoñales">
+      <span>Lunas de Octubre</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="navegacion" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Nuestra esencia</a>
+      <a href="#menu">Menú</a>
+      <a href="#detalles">Nuestra identidad</a>
+      <a href="#frases">Inspiración</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="portada" id="inicio">
+      <div class="portada-texto">
+        <p class="sobretitulo">CAFÉ PARA LAS NOCHES QUE INSPIRAN</p>
+        <h1>Donde cada luna guarda una historia y cada taza un momento.</h1>
+        <p>Un rincón para disfrutar café, sabores especiales y esos pequeños detalles que hacen bonito el día.</p>
+        <a class="boton" href="#menu">Descubre nuestro menú <span aria-hidden="true">☾</span></a>
+      </div>
+      <div class="portada-logo">
+        <img src="imagenes/3.jpeg" alt="Emblema original de la cafetería Lunas de Octubre">
+      </div>
+      <span class="estrella estrella-uno" aria-hidden="true">✦</span>
+      <span class="estrella estrella-dos" aria-hidden="true">✧</span>
+    </section>
+
+    <section class="historia seccion" id="historia">
+      <p class="sobretitulo">NUESTRA ESENCIA</p>
+      <h2>Un lugar para volver a ti.</h2>
+      <p class="texto-seccion">En Lunas de Octubre creemos que los pequeños detalles pueden convertir un día común en un recuerdo especial. Queremos crear un espacio acogedor para hacer una pausa, compartir algo rico y disfrutar sin prisa.</p>
+      <div class="frase">“Que tu día esté lleno de café, paz y momentos bonitos.”</div>
+    </section>
+
+    <section class="menu seccion" id="menu">
+      <p class="sobretitulo">HECHO PARA DISFRUTAR</p>
+      <h2>Un poquito de nuestra esencia</h2>
+      <p class="texto-seccion">Una primera mirada a la propuesta de menú de nuestra cafetería.</p>
+      <a class="imagen-enlace" href="imagenes/2.jpeg" target="_blank" rel="noopener" aria-label="Abrir imagen completa del menú">
+        <img class="imagen-menu" src="imagenes/2.jpeg" alt="Diseño de menú de Lunas de Octubre con cafés, bebidas especiales, tés, postres y precios de referencia">
+      </a>
+      <p class="nota">Los productos y precios de la imagen son una propuesta visual inicial y podrán ajustarse más adelante.</p>
+    </section>
+
+    <section class="identidad seccion" id="detalles">
+      <p class="sobretitulo">CADA DETALLE CUENTA</p>
+      <h2>Una misma esencia, en cada rincón.</h2>
+      <p class="texto-seccion">Desde los uniformes hasta los empaques para llevar, todo conserva la luna, los tonos cálidos y el estilo artesanal de Lunas de Octubre.</p>
+      <div class="galeria">
+        <article class="tarjeta-imagen">
+          <a href="imagenes/4.jpeg" target="_blank" rel="noopener">
+            <img src="imagenes/4.jpeg" alt="Diseño de uniformes para el equipo de Lunas de Octubre" loading="lazy">
+          </a>
+          <div class="tarjeta-texto">
+            <h3>Nuestros uniformes</h3>
+            <p>Crema y café oscuro con detalles dorados.</p>
+          </div>
+        </article>
+        <article class="tarjeta-imagen">
+          <a href="imagenes/1.jpeg" target="_blank" rel="noopener">
+            <img src="imagenes/1.jpeg" alt="Propuesta de cajas para postres, bolsas, vasos y tarjetas de regalo" loading="lazy">
+          </a>
+          <div class="tarjeta-texto">
+            <h3>Detalles para llevar</h3>
+            <p>Empaques y vasos que llevan nuestra identidad.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="inspiracion seccion" id="frases">
+      <p class="sobretitulo">RINCÓN DE INSPIRACIÓN</p>
+      <h2>Frases que iluminan la noche</h2>
+      <p class="texto-seccion">Comparte una frase, un pensamiento o un deseo para acompañar nuestro café.</p>
+
+      <div class="muro-frases" id="muroFrases">
+        <!-- Las frases se cargarán aquí dinámicamente -->
+      </div>
+
+      <form class="formulario-frase" id="formFrase">
+        <input type="text" id="autorInput" placeholder="Tu nombre o apodo (opcional)" maxlength="30">
+        <textarea id="fraseInput" placeholder="Escribe tu mensaje inspirador aquí..." rows="3" required maxlength="150"></textarea>
+        <button type="submit" class="boton">Compartir frase ✦</button>
+      </form>
+    </section>
+
+    <section class="contacto seccion" id="contacto">
+      <p class="sobretitulo">TE ESPERAMOS</p>
+      <h2>Tu momento, tu lugar.</h2>
+      <p>Pronto compartiremos aquí la ubicación, los horarios y los medios de contacto de Lunas de Octubre.</p>
+      <a class="boton boton-oscuro" href="#inicio">Volver al inicio ↑</a>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <img src="imagenes/3.jpeg" alt="" loading="lazy">
+    <p class="pie-marca">Lunas de Octubre</p>
+    <p>Donde cada luna guarda una historia y cada taza un momento. ✦</p>
+    <small>© 2026 Lunas de Octubre · Concepto de cafetería</small>
+  </footer>
+
+  <script>
+    // Control del menú hamburguesa
+    const botonMenu = document.querySelector('.menu-toggle');
+    const navegacion = document.querySelector('.navegacion');
+    botonMenu.addEventListener('click', () => {
+      const abierto = navegacion.classList.toggle('abierta');
+      botonMenu.setAttribute('aria-expanded', abierto);
+    });
+    navegacion.querySelectorAll('a').forEach(enlace => {
+      enlace.addEventListener('click', () => {
+        navegacion.classList.remove('abierta');
+        botonMenu.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // --- LÓGICA DE FRASES CON LOCALSTORAGE ---
+    const formFrase = document.getElementById('formFrase');
+    const muroFrases = document.getElementById('muroFrases');
+
+    // Frases iniciales por defecto si la memoria está vacía
+    const frasesPorDefecto = [
+      { texto: "“Que tu día esté lleno de café, paz y momentos bonitos.”", autor: "Lunas de Octubre" },
+      { texto: "“Hasta en la noche más oscura, la luna siempre encuentra cómo brillar.”", autor: "Un visitante" }
+    ];
+
+    function cargarFrases() {
+      // Intentar leer de la memoria del navegador
+      let frasesGuardadas = JSON.parse(localStorage.getItem('lunas_frases'));
+      
+      if (!frasesGuardadas || frasesGuardadas.length === 0) {
+        frasesGuardadas = frasesPorDefecto;
+      }
+
+      muroFrases.innerHTML = '';
+      frasesGuardadas.forEach(item => {
+        const tarjeta = document.createElement('div');
+        tarjeta.className = 'tarjeta-frase';
+        tarjeta.innerHTML = `
+          <p class="texto-frase">${item.texto}</p>
+          <span class="autor-frase">— ${item.autor}</span>
+        `;
+        muroFrases.appendChild(tarjeta);
+      });
+    }
+
+    formFrase.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const autor = document.getElementById('autorInput').value.trim() || 'Un visitante';
+      const textoInput = document.getElementById('fraseInput').value.trim();
+
+      if (textoInput) {
+        const nuevaFrase = {
+          texto: `“${textoInput}”`,
+          autor: autor
+        };
+
+        // Obtener lo que ya hay guardado o iniciar lista
+        let frasesGuardadas = JSON.parse(localStorage.getItem('lunas_frases')) || frasesPorDefecto;
+        
+        // Agregar la nueva frase al inicio de la lista
+        frasesGuardadas.unshift(nuevaFrase);
+
+        // Guardar de nuevo en la memoria del navegador
+        localStorage.setItem('lunas_frases', JSON.stringify(frasesGuardadas));
+
+        // Actualizar la pantalla y limpiar formulario
+        cargarFrases();
+        formFrase.reset();
+      }
+    });
+
+    // Cargar las frases al abrir la página
+    cargarFrases();
+  </script>
+</body>
+</html>
